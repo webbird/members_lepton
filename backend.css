@@ -1,0 +1,73 @@
+/* -------  module members  -------  */
+
+/*----------- settings---------------*/
+/* show (display:block;) or hide (display:none;) sections on Settings Page: */
+#settings1 {display:block;}
+#settings2 {display:block;}
+#settings3 {display:block;}
+.notready-tr {display:block;} /*einige Felder in den Options, die derzeit nicht verändert werden sollten*/
+.options-names td {font-size: 10px; color: #999999;}
+
+
+
+.membertable img {border:0; border-collapse:collapse; }
+
+/* ----------  Modify Member ----------  */
+.thismember {
+	background-color: #E0ECBE;
+}
+.thisgroup {
+	background-color: #F1F8DD;
+}
+.otherpage {
+	background-color: #FFCCFF;
+}
+
+.lefttd { font-size: 10px; }
+.lefttd div { margin-bottom:12px; }
+
+/* ----------  Modify  ----------  */
+.topline {
+	border-top: 2px dotted  #CCCCCC;
+}
+
+.ismember {	font-weight: bold; }
+.isalias {	font-style: italic; }
+
+.score_td {
+	text-align: right; padding-right:20px;
+}
+.sort_td {
+	text-align: left; padding-left:20px;
+}
+
+.grouptr td {
+	font-size: 14px;
+	background-color: #E7E7E7;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: dotted;
+	border-top-color: #999999;
+	border-bottom-color: #999999;
+	font-weight: bold;
+}
+
+.membertd1, grouptd1 {
+	text-align: right;
+	padding-right: 10px;
+}
+.mrow td {border-bottom: 1px dotted #999999;}
+
+.hilite td {
+	background-color: #E0ECBE ! important;
+	color: #999999;
+}
+
+.groupinfo {padding-top: 10px; font-size: 10px;}
+
+.warning {margin:10px 0; padding:5px; background-color: #FFFF66! important;
+	color: #CC0000;}
+	
+.admininfo {padding-top: 10px; font-size: 10px;}
+
